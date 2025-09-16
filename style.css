@@ -1,0 +1,99 @@
+/* Style untuk body */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #74854e, #e6f8e8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Container form */
+.form-container {
+  background: #ffffffcc;
+  backdrop-filter: blur(5px);
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(237, 96, 96, 0.15);
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Judul */
+.form-container h2 {
+  text-align: center;
+  color: #2d6a4f;
+  margin-bottom: 20px;
+  margin-top: 170pt;
+}
+
+/* Label */
+label {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #1b4332;
+}
+
+/* Input, textarea, select */
+input[type="text"], 
+input[type="password"], 
+textarea, 
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #b7e4c7;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  border-color: #52b788;
+  box-shadow: 0 0 6px rgba(82, 183, 136, 0.5);
+}
+
+/* Radio & Checkbox */
+.radio-group, .checkbox-group {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  accent-color: #2d6a4f;
+}
+
+/* Tombol */
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background: #40916c;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #1b4332;
+}
+/*penutup*/
+.footer {
+  font-size: smaller;
+  text-align: center; 
+  
+}

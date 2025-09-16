@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pendaftaran Beasiswa TELADAN</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>TELADAN Toronto Fountain</h2>
+    <form action="#" method="post">
+      
+      <!-- Text input -->
+      <label for="nama">Nama Lengkap</label>
+      <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" required>
+
+      <!-- Password input -->
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="Buat password" required>
+
+      <!-- Textarea -->
+      <label for="alamat">Alamat Lengkap</label>
+      <textarea id="alamat" name="alamat" rows="4" placeholder="Masukkan alamat lengkap"></textarea>
+
+      <!-- Radio button -->
+      <label>Jenis Kelamin</label>
+      <div class="radio-group">
+        <input type="radio" id="laki" name="gender" value="Laki-laki" required>
+        <label for="laki">Laki-laki</label>
+        
+        <input type="radio" id="perempuan" name="gender" value="Perempuan">
+        <label for="perempuan">Perempuan</label>
+      </div>
+
+      <!-- Checkbox -->
+      <label>Pilihan Beasiswa</label>
+      <div class="checkbox-group">
+        <input type="checkbox" id="akademik" name="beasiswa" value="Akademik">
+        <label for="akademik">Akademik</label>
+
+        <input type="checkbox" id="nonakademik" name="beasiswa" value="Non-Akademik">
+        <label for="nonakademik">Non-Akademik (bootcamp)</label>
+      </div>
+
+      <!-- essay -->
+        <label for="essay">Esai tentang kepemimpinan (min. 500 kata)</label>
+      <textarea id="essay" name="essay" rows="4" placeholder="Masukkan esai minimal 500 kata"></textarea>
+      <!-- Select option -->
+      <label for="jurusan">Pilih Jurusan</label>
+      <select id="jurusan" name="jurusan" required>
+        <option value="">-- Pilih Jurusan --</option>
+        <option value="teknik">Teknik</option>
+        <option value="ekonomi">Ekonomi</option>
+        <option value="kedokteran">Kedokteran</option>
+        <option value="hukum">Hukum</option>
+        <option value="teknologi informasi">Teknologi Informasi</option>
+      </select>
+
+      <!-- Submit button -->
+      <button type="submit">Daftar</button>
+
+      <!-- reset button -->
+       <button type="reset">Reset</button>
+    </form>
+     
+     <footer class="footer">
+    <p>&copy; 2025 ANDIKA CHAIRUL ILHAM 251402047. cuma buat tugas bukan phising 🌿
+    </p>
+  </footer>
+
+  </div>
+</body>
+</html>
